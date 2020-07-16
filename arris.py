@@ -93,7 +93,7 @@ def scrape():
     html.append('arris_downstreams_frequency{{name="{}"}} {}'.format(downstream['name'], freq))
     power = downstream['power'].replace(' dBmV', '')
     html.append('arris_downstreams_power{{name="{}"}} {}'.format(downstream['name'], power))
-    snr = downstream['snr'].replace(' dbB', '')
+    snr = downstream['snr'].replace(' dB', '')
     html.append('arris_downstreams_snr{{name="{}"}} {}'.format(downstream['name'], snr))
     html.append('arris_downstreams_octets{{name="{}"}} {}'.format(downstream['name'], downstream['octets']))
     html.append('arris_downstreams_correcteds{{name="{}"}} {}'.format(downstream['name'], downstream['corr']))
