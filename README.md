@@ -1,6 +1,6 @@
 # arris-exporter
 
-Prometheus exporter for my Arris SBG10. If they'd only offer SNMP, sigh. This is much hacks, but, I wanted something relatively quick (to be able to monitor correctables and uncorrectables without logging into a web browser manually).
+Prometheus exporter for my Arris SBG10. If they'd only offer SNMP, sigh. This is much hacks, but, I wanted something relatively quick (to be able to monitor correctables and uncorrectables without logging into a web browser manually). Currently using Chrome with Selenium (you'll need to install a Chrome driver).
 
 ```bash
 ❯ virtualenv -p python3 venv
