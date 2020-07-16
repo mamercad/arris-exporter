@@ -1,0 +1,10 @@
+[Unit]
+Description=arris-exporter
+
+[Service]
+Type=simple
+WorkingDirectory=/home/mark/code/github.com/mamercad/arris-exporter
+ExecStart=/bin/bash ./arris-exporter.sh
+
+[Install]
+WantedBy=multi-user.target

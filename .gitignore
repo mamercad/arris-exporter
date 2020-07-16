@@ -1,2 +1,4 @@
 venv
 status.html
+arris-exporter.service
+arris-exporter.sh

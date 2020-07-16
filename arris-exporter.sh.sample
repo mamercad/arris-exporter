@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+source venv/bin/activate
+python3 ./arris.py --password hunter2 --listen 9700

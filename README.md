@@ -46,7 +46,7 @@ optional arguments:
   --password PASSWORD
   --listen LISTEN
 
-❯ ./arris.py --password supersecretpassword --listen 8000
+❯ ./arris.py --password hunter2 --listen 8000
 127.0.0.1 - - [16/Jul/2020 05:35:03] "GET /metrics HTTP/1.1" 200 -
 
 ❯ curl http://localhost:8000/metrics
